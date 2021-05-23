@@ -1,0 +1,12 @@
+.video-js {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.video-js .vjs-big-play-button {
+  background-color: rgb(233, 17, 17) !important;
+}
+
+.video-js .vjs-big-play-button:hover {
+  background-color: rgb(21, 207, 30) !important;
+}
