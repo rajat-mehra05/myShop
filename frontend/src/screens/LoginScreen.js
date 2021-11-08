@@ -9,8 +9,8 @@ import { login } from "../actions/userActions";
 import bg from "../images/JG.png";
 
 const LoginScreen = ({ location, history }) => {
-  const [email, setEmail] = useState("john@example.com");
-  const [password, setPassword] = useState("123456");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
   const dispatch = useDispatch();
 
@@ -44,13 +44,13 @@ const LoginScreen = ({ location, history }) => {
               </Form.Label>
               <Form.Control
                 type="email"
-                placeholder="Enter email"
+                placeholder="Enter email: john@example.com"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               ></Form.Control>
             </Form.Group>
 
-            <Form.Group controlId="password">
+            <Form.Group controlId="password: 123456">
               <Form.Label style={{ color: "#7b113a" }}>
                 Password <i class="fas fa-unlock-alt" />
               </Form.Label>
