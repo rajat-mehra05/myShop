@@ -9,8 +9,8 @@ import { login } from "../actions/userActions";
 import bg from "../images/JG.png";
 
 const LoginScreen = ({ location, history }) => {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("john@example.com");
+  const [password, setPassword] = useState("123456");
 
   const dispatch = useDispatch();
 
